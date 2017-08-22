@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SizeClass" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Footer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boh-gA-KEG">
+                                <rect key="frame" x="110" y="430" width="100" height="42"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Qps-sd-eUn">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="21" id="orS-C8-WPq">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="42"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="63"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXB-kf-SBS">
+                                <rect key="frame" x="104" y="20" width="112" height="42"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="Z9F-bV-IsQ">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="112"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="168"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="21" id="se1-vS-5fc">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="42"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="63"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.58004476510000003" blue="0.25283299269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wR hC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHK-jN-fz9">
+                                <rect key="frame" x="343.33333333333326" y="197" width="49.666666666666686" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.56578763509999996" blue="0.4251129018" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wC hC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gem-XG-HCE">
+                                <rect key="frame" x="308.5" y="177" width="50.5" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wR hR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6v-WN-iSl">
+                                <rect key="frame" x="488" y="672.5" width="48.5" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.56912984860000004" blue="0.27441977969999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wC hC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2w-RF-KAF">
+                                <rect key="frame" x="132.5" y="229.5" width="55" height="21"/>
+                                <color key="backgroundColor" red="0.30596784420000001" green="0.72336632010000002" blue="0.1066896933" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="XBE-Rw-ock"/>
+                                    <constraint firstAttribute="width" constant="55" id="ooS-so-2dP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nXB-kf-SBS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3Ec-tD-ydc"/>
+                            <constraint firstItem="gem-XG-HCE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fch-BD-6oV"/>
+                            <constraint firstItem="n6v-WN-iSl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N36-n9-Nun"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="boh-gA-KEG" secondAttribute="bottom" constant="8" id="QcS-e9-8US"/>
+                            <constraint firstItem="nXB-kf-SBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VwF-YW-pdn"/>
+                            <constraint firstItem="n6v-WN-iSl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WgL-h8-9gT"/>
+                            <constraint firstItem="boh-gA-KEG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YYK-K1-MlA"/>
+                            <constraint firstItem="p2w-RF-KAF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jgu-yE-BbM"/>
+                            <constraint firstItem="FHK-jN-fz9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mvv-Bv-FuJ"/>
+                            <constraint firstItem="FHK-jN-fz9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nbs-fV-dBV"/>
+                            <constraint firstItem="gem-XG-HCE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sxo-PP-wrr"/>
+                            <constraint firstItem="p2w-RF-KAF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uLk-4Q-oie"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FHK-jN-fz9"/>
+                                <exclude reference="gem-XG-HCE"/>
+                                <exclude reference="n6v-WN-iSl"/>
+                                <exclude reference="p2w-RF-KAF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gem-XG-HCE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="FHK-jN-fz9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="p2w-RF-KAF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="n6v-WN-iSl"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="138.75"/>
+        </scene>
+    </scenes>
+</document>
